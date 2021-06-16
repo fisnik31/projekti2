@@ -1,0 +1,107 @@
+body{
+    background-color: #2a3952;
+    
+}
+/*navbar*/
+ul{
+    display: inline;
+    
+}
+li{
+    display: inline-flex;
+      
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;  
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+  
+  a:visited {
+    color: #ffffff;
+  }
+  
+  a:hover {
+   
+   width: 100%;
+   border-bottom: 2px solid white ;
+  }
+ /*1st div*/ 
+.head{
+    width: 80%;
+    height:80vh;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.mainPhoto{
+    height:80vh;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.mainPhoto:hover{
+    border:2px solid #ffffff;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+    
+}
+.caption{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.secPhoto{
+    width:40% ;
+    max-height: 40%;
+    object-fit: cover;
+    float: left;
+    margin-top: 200px;
+    margin-left:40px ;
+    
+}
+
+.abc{
+
+    width: 100%;
+    margin-left:40px ;
+}
+
+.learn{
+    margin-left: 280px;
+    padding-top: 20px;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+}
+.learn:hover{
+    background-color: #aaa69d;
+    border: 1px solid white;
+}
+
+.thirdPhoto{
+    width:40% ;
+    max-height: 40%;
+    object-fit: cover;
+    float: right;
+    margin-top: 200px;
+    margin-right: 40px;
+
+    
+    
+}
+
